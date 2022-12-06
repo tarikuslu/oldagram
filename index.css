@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.name,
+.likes,
+.comment-owner {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.location,
+.comment {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0;
+    border-bottom: 2px solid lightgray;
+}
+
+.content-header {
+    display: flex;
+    margin-left: 10px;
+}
+
+.user-info p:first-child {
+    margin-bottom: 2px;
+}
+
+.user-info p:last-child {
+    margin-top: 0;
+}
+
+.post {
+    width: 100%;
+}
+
+.logo  {
+    width: 117px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: red;
+    align-self: center;
+    margin-right: 10px;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.buttons a {
+    width: 23px;
+    display: inline-block;
+    border: none;
+    background-color: #fff;
+    padding-right: 0;
+    margin-right: 15px;
+}
+
+.buttons a img {
+    width: 23px;
+    display: inline-block;
+    
+}
+
+.likes,
+.comment {
+    margin-left: 10px;
+}
+
+.comment {
+    padding-bottom: 16px;
+}
+
+.contents {
+    background-color: #EDEDED;
+}
+
+.content {
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.content:last-child {
+    margin-bottom: 0;
+}
